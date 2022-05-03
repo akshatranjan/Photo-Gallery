@@ -1,0 +1,26 @@
+.heading 
+{
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#logo
+{
+    width: 400px;
+    height: 240px;
+}
+
+.img
+{
+    height: 150px;
+    width: 250px;
+}
+
+.img2
+{
+    height: 600px;
+    width: 1000px;
+}

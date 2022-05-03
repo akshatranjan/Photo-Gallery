@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+</head>
+    <body>
+        <center>
+            <h1 class="btn heading">Photo Gallery</h1>
+            <hr>
+            <img src="Logo.png" id="logo">
+
+            <h3>Grid Gallery</h3>
+            <div>
+                <span>
+                    <img src="Captain America.jpg" class="img">
+                    <img src="Black Panther.jpg" class="img">
+                    <img src="Hulk.jpg" class="img">
+                    <img src="Iron Man.jpg" class="img">
+                </span>
+                <br><br>
+                <span>
+                    <img src="Thor.jpg" class="img">
+                    <img src="Black Widow.jpeg" class="img">
+                    <img src="Hawkeye.jpg" class="img">
+                    <img src="Wanda.jpg" class="img">
+                </span>
+            </div>
+            <br><br>
+            <h3>Sliding Gallery</h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Captain America.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Black Panther.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Hulk.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Iron Man.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Black Widow.jpeg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Wanda.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Hawkeye.jpg" class="img-responsive img2">
+                    </div>
+                    <div class="item">
+                        <img src="Thor.jpg" class="img-responsive img2">
+                    </div>
+                    </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+            </div>
+        </center>
+    <script src="main.js"></script>
+    </body>
+</html>
